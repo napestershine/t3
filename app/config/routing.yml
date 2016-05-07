@@ -1,3 +1,7 @@
+three_admin:
+    resource: "@ThreeAdminBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
